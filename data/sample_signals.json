@@ -1,0 +1,26 @@
+{
+  "_note": "Sample data for UI development. Run scripts/update_all.py to populate with real data.",
+  "generated_at": "2026-03-09T00:00:00Z",
+  "latest_vix": 24.5,
+  "config_snapshot": {
+    "zscore_window_days": 252,
+    "vix_elevated_threshold": 20,
+    "vix_stress_threshold": 30,
+    "zscore_elevated_threshold": 1.5,
+    "zscore_stress_threshold": 2.5
+  },
+  "signals": [
+    {"ticker":"EOS","name":"Eaton Vance Enhanced Equity Income II","asset_class":"Equity","latest_date":"2026-03-07","latest_price":14.21,"latest_nav":16.85,"latest_pd":-15.67,"latest_zscore":-2.9,"mean_pd":-8.2,"std_pd":3.1,"min_pd":-21.4,"max_pd":-1.2,"signal":"PEAK_STRESS","latest_vix":24.5,"num_records":1260},
+    {"ticker":"PDI","name":"PIMCO Dynamic Income","asset_class":"Credit","latest_date":"2026-03-07","latest_price":18.44,"latest_nav":22.10,"latest_pd":-16.56,"latest_zscore":-2.7,"mean_pd":-9.4,"std_pd":3.8,"min_pd":-22.1,"max_pd":2.1,"signal":"PEAK_STRESS","latest_vix":24.5,"num_records":1260},
+    {"ticker":"HYT","name":"BlackRock Corporate High Yield","asset_class":"Credit","latest_date":"2026-03-07","latest_price":9.82,"latest_nav":11.45,"latest_pd":-14.23,"latest_zscore":-2.1,"mean_pd":-7.6,"std_pd":3.2,"min_pd":-19.8,"max_pd":0.8,"signal":"ELEVATED","latest_vix":24.5,"num_records":1260},
+    {"ticker":"AGD","name":"abrdn Income Credit Strategies","asset_class":"Credit","latest_date":"2026-03-07","latest_price":9.15,"latest_nav":10.62,"latest_pd":-13.84,"latest_zscore":-1.8,"mean_pd":-8.1,"std_pd":3.1,"min_pd":-20.2,"max_pd":1.5,"signal":"ELEVATED","latest_vix":24.5,"num_records":1260},
+    {"ticker":"GIM","name":"Templeton Global Income","asset_class":"Fixed Income","latest_date":"2026-03-07","latest_price":4.88,"latest_nav":5.92,"latest_pd":-17.57,"latest_zscore":-1.6,"mean_pd":-11.2,"std_pd":3.9,"min_pd":-24.1,"max_pd":-2.1,"signal":"ELEVATED","latest_vix":24.5,"num_records":1260},
+    {"ticker":"AWP","name":"abrdn Global Premier Properties","asset_class":"Equity","latest_date":"2026-03-07","latest_price":4.62,"latest_nav":5.41,"latest_pd":-14.60,"latest_zscore":-1.4,"mean_pd":-9.8,"std_pd":3.4,"min_pd":-22.5,"max_pd":0.3,"signal":"ELEVATED","latest_vix":24.5,"num_records":1260},
+    {"ticker":"PCN","name":"PIMCO Corporate & Income Strategy","asset_class":"Credit","latest_date":"2026-03-07","latest_price":14.55,"latest_nav":15.88,"latest_pd":-8.38,"latest_zscore":-1.2,"mean_pd":-5.1,"std_pd":2.7,"min_pd":-15.6,"max_pd":3.2,"signal":"ELEVATED","latest_vix":24.5,"num_records":1260},
+    {"ticker":"NMZ","name":"Nuveen Municipal High Income","asset_class":"Fixed Income","latest_date":"2026-03-07","latest_price":10.44,"latest_nav":11.21,"latest_pd":-6.87,"latest_zscore":-0.9,"mean_pd":-4.2,"std_pd":3.1,"min_pd":-14.5,"max_pd":2.3,"signal":"NORMAL","latest_vix":24.5,"num_records":1260},
+    {"ticker":"GLD","name":"Aberdeen Gold & Precious Metals","asset_class":"Gold","latest_date":"2026-03-07","latest_price":6.22,"latest_nav":6.58,"latest_pd":-5.47,"latest_zscore":-0.4,"mean_pd":-4.8,"std_pd":2.2,"min_pd":-12.1,"max_pd":3.4,"signal":"NORMAL","latest_vix":24.5,"num_records":1260},
+    {"ticker":"JDD","name":"Nuveen Diversified Dividend & Income","asset_class":"Equity","latest_date":"2026-03-07","latest_price":8.91,"latest_nav":9.44,"latest_pd":-5.61,"latest_zscore":-0.3,"mean_pd":-4.9,"std_pd":2.8,"min_pd":-16.2,"max_pd":3.1,"signal":"NORMAL","latest_vix":24.5,"num_records":1260},
+    {"ticker":"RQI","name":"Cohen & Steers Real Estate Opps","asset_class":"Equity","latest_date":"2026-03-07","latest_price":12.88,"latest_nav":13.25,"latest_pd":-2.79,"latest_zscore":0.1,"mean_pd":-3.4,"std_pd":2.9,"min_pd":-12.3,"max_pd":4.8,"signal":"NORMAL","latest_vix":24.5,"num_records":1260},
+    {"ticker":"CIK","name":"Credit Suisse Asset Mgmt Income","asset_class":"Fixed Income","latest_date":"2026-03-07","latest_price":2.84,"latest_nav":2.91,"latest_pd":-2.41,"latest_zscore":0.4,"mean_pd":-3.8,"std_pd":2.1,"min_pd":-11.2,"max_pd":5.1,"signal":"NORMAL","latest_vix":24.5,"num_records":1260}
+  ]
+}
