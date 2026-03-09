@@ -1,0 +1,16 @@
+{
+  "strategy": {
+    "zscore_window_days": 252,
+    "vix_elevated_threshold": 20,
+    "vix_stress_threshold": 30,
+    "zscore_elevated_threshold": 1.5,
+    "zscore_stress_threshold": 2.5
+  },
+  "data": {
+    "history_years": 5,
+    "cefconnect_funds_url": "https://www.cefconnect.com/api/v3/Funds/GetFundsOverview",
+    "cefconnect_pricing_url": "https://www.cefconnect.com/api/v3/PricingHistory/{ticker}",
+    "vix_ticker": "^VIX"
+  },
+  "asset_classes": ["Equity", "Credit", "Fixed Income", "FX", "Commodities", "Gold"]
+}
